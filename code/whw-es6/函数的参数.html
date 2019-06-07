@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>函数的参数</title>
+    <script type="text/javascript">
+
+        /*
+        function show(a,b,...args){
+            //多个参数
+            alert(a);
+            alert(b);
+            alert(args);
+        }
+        show(1,2,3,4,5,4,3);
+        */
+
+        //展开数组
+
+        /*
+        function showArray(a,b,c){
+            alert(a);
+            alert(b);
+            alert(c);
+        }
+        let arr = [1,2,3,];
+        showArray(...arr);
+
+        let arr1 = [1,2,3,4];
+        let arr2 = [6,7,8,9];
+
+        let arr3 = [...arr1,...arr2];
+        alert(arr3);
+        */
+
+        // 默认参数
+        function defaultParams(a , b = 10 , c = 100){
+            alert (a);
+            alert(b);
+            alert(c);
+        }
+        defaultParams(1,2,3);
+        defaultParams(1);
+
+    </script>
+
+</head>
+<body>
+
+
+    <pre>
+        function a (...args)
+        1 多个参数
+
+        let arr1 = [1,2,3,4];
+        let arr2 = [6,7,8,9];
+        let arr3 = [...arr1,...arr2];
+
+        2 展开数组
+
+        默认参数
+
+        function defaultParams(a , b = 10 , c = 100){
+        b c 默认参数值
+
+
+     </pre>
+
+</body>
+</html>
