@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<script type="text/javascript">
+			
+			window.onload = function(){
+				//haveQuestion();
+				//oldMethod();
+				newMethod();
+			}
+			
+			//有问题的方法
+			function haveQuestion(){
+				var buttons = document.getElementsByTagName("input");
+				for(var i = 0 ; i < buttons.length ; i++){		
+					buttons[i].onclick = function(){
+						alert(i);
+					}	
+				}
+			}
+			
+			//老版本解决方案
+			function oldMethod(){
+				var buttons = document.getElementsByTagName("input");
+				for(var i = 0 ; i < buttons.length ; i++){		
+					(function(i){
+						buttons[i].onclick = function(){
+						alert(i);}
+					})(i);
+				}
+			}
+			
+			//新版本解决方案
+			function newMethod(){
+				var buttons = document.getElementsByTagName("input");
+				for(let i = 0 ; i < buttons.length ; i++){		
+					buttons[i].onclick = function(){
+						alert(i);
+					}
+				}
+			}
+			
+		</script>
+		
+	</head>
+	<body>
+		
+		
+		<input type="button" value="bt1"/>
+		<input type="button" value="bt1"/>
+		<input type="button" value="bt1"/>
+		
+		
+	</body>
+</html>
