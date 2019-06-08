@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+
+        class User{
+            constructor(name ,age){
+                this.name = name;
+                this.age = age;
+            }
+            showName(){
+                alert(this.name);
+            }
+            showAge(){
+                alert(this.age);
+            }
+        }
+
+        let user = new User("san",18);
+        user.showName();
+        user.showAge();
+
+
+        class Student extends User{
+            constructor(name,age,pass){
+                super(name,age);
+                this.pass = pass;
+            }
+            showPass(){
+                alert(this.pass);
+            }
+        }
+
+        let student = new Student("ww",100,123456);
+        student.showName();
+        student.showAge();
+        student.showPass();
+
+    </script>
+
+</head>
+<body>
+
+
+</body>
+</html>
