@@ -6,6 +6,9 @@
 
     <div id="app">
         {{info.name}} {{info.age}}
+        <p v-for="enjoy in info.enjoys">
+            {{enjoy}}
+        </p>
     </div>
 
     <script src="../js/vue.js"></script>
@@ -17,7 +20,8 @@
                 return {
                     info:{
                         name:'',
-                        age:''
+                        age:'',
+                        enjoys:[]
                     }
                 }
             },
