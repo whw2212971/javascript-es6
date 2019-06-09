@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4cf3ba9-fa42-494d-a57a-113fadba984a" name="Default" comment="zi">
-      <change afterPath="$PROJECT_DIR$/vue/html/双向绑定.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/html/组件.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/html/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue/html/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/html/sxiosTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/html/sxiosTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/html/计算属性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/html/组件.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/html/组件.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,34 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="双向绑定.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/html/双向绑定.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-              <folding>
-                <element signature="e#141#147#0" expanded="true" />
-                <element signature="e#148#154#0" expanded="true" />
-                <element signature="e#155#161#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="组件.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vue/html/组件.html">
+      <file leaf-file-name="计算属性.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vue/html/计算属性.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
               <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="第一个vue程序.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/html/第一个vue程序.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="20" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -90,6 +64,7 @@
         <option value="$PROJECT_DIR$/vue/html/sxiosTest.html" />
         <option value="$PROJECT_DIR$/vue/html/双向绑定.html" />
         <option value="$PROJECT_DIR$/vue/html/组件.html" />
+        <option value="$PROJECT_DIR$/vue/html/计算属性.html" />
       </list>
     </option>
   </component>
@@ -108,11 +83,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="633" />
-    <option name="y" value="142" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="200" />
+    <option name="y" value="68" />
     <option name="width" value="1423" />
-    <option name="height" value="670" />
+    <option name="height" value="940" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -169,26 +144,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.双向绑定.html">
+  <component name="RunManager" selected="JavaScript Debug.组件.html">
     <configuration name="双向绑定.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/github/vue/html/双向绑定.html" />
-    <configuration name="面向对象.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/github/code/whw-es6/面向对象.html" />
+    <configuration name="组件.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/github/vue/html/组件.html" />
     <configuration name="ifelse.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/github/vue/html/ifelse.html" />
     <configuration name="sxiosTest.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/github/vue/html/sxiosTest.html" />
     <configuration name="第一个vue程序.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/github/vue/html/第一个vue程序.html" />
     <list>
-      <item itemvalue="JavaScript Debug.面向对象.html" />
       <item itemvalue="JavaScript Debug.第一个vue程序.html" />
       <item itemvalue="JavaScript Debug.ifelse.html" />
       <item itemvalue="JavaScript Debug.sxiosTest.html" />
       <item itemvalue="JavaScript Debug.双向绑定.html" />
+      <item itemvalue="JavaScript Debug.组件.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.组件.html" />
         <item itemvalue="JavaScript Debug.双向绑定.html" />
         <item itemvalue="JavaScript Debug.sxiosTest.html" />
         <item itemvalue="JavaScript Debug.第一个vue程序.html" />
         <item itemvalue="JavaScript Debug.ifelse.html" />
-        <item itemvalue="JavaScript Debug.面向对象.html" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +177,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559903836025</updated>
-      <workItem from="1559903837526" duration="23463000" />
+      <workItem from="1559903837526" duration="24591000" />
     </task>
     <task id="LOCAL-00001" summary="配置文件">
       <created>1559904070944</created>
@@ -222,20 +197,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23463000" />
+    <option name="totallyTimeSpent" value="24591000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="160" y="55" width="1138" height="752" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1961691" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26950997" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" weight="0.47666195" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" weight="0.7178631" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.09983897" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.54314005" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -453,13 +428,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/html/第一个vue程序.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue/html/双向绑定.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
@@ -472,7 +440,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vue/html/第一个vue程序.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vue/html/组件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/html/计算属性.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
