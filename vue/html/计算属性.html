@@ -6,6 +6,23 @@
 </head>
 <body>
 
+<div id="app">
+    {{getCurrentTime}}
+</div>
+<script src="../js/vue.js"></script>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello Vue!'
+        },
+        computed:{
+           getCurrentTime:function(){
+               return Date.now();
+           }
+        }
+    })
+</script>
 
 
 </body>
