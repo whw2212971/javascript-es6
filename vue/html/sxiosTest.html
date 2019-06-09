@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <div id="app">
+        {{info.name}} {{info.age}}
+    </div>
+
+    <script src="../js/vue.js"></script>
+    <script src="../js/axios.min.js"></script>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data(){
+                return {
+                    info:{
+                        name:'',
+                        age:''
+                    }
+                }
+            },
+            mounted(){
+                axios.get("data.json")
+                    .then(response => this.info = response.data);
+            }
+        })
+    </script>
+
+
+</head>
+<body>
+
+</body>
+</html>

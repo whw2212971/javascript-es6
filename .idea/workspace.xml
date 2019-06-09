@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4cf3ba9-fa42-494d-a57a-113fadba984a" name="Default" comment="zi">
-      <change afterPath="$PROJECT_DIR$/vue/html/第一个vue程序.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/js/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vue简绍.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/html/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/html/ifelse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/html/sxiosTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/html/vueTest.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/js/axios.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/html/第一个vue程序.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/html/第一个vue程序.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,11 +22,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="第一个vue程序.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ifelse.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/html/ifelse.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="830">
+              <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vueTest.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/html/vueTest.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="第一个vue程序.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vue/html/第一个vue程序.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="176">
+              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sxiosTest.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vue/html/sxiosTest.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="25" column="34" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/html/data.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -33,9 +72,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Vue Single File Component" />
         <option value="HTML File" />
       </list>
     </option>
+    <option name="SCHEME" value="Project" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,12 +96,24 @@
         <option value="$PROJECT_DIR$/vue/vue简绍.html" />
         <option value="$PROJECT_DIR$/vue/html.html" />
         <option value="$PROJECT_DIR$/vue/js/vue.js" />
+        <option value="$PROJECT_DIR$/vue/html/pp.html" />
+        <option value="$PROJECT_DIR$/vue/html/vueTest.vue" />
+        <option value="$PROJECT_DIR$/vue/html/ifelse.html" />
+        <option value="$PROJECT_DIR$/vue/js/axios.min.js" />
+        <option value="$PROJECT_DIR$/vue/html/data.json" />
+        <option value="$PROJECT_DIR$/vue/html/sxiosTest.html" />
         <option value="$PROJECT_DIR$/vue/html/第一个vue程序.html" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -69,10 +122,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="347" />
-    <option name="y" value="92" />
+    <option name="x" value="397" />
+    <option name="y" value="102" />
     <option name="width" value="1423" />
-    <option name="height" value="823" />
+    <option name="height" value="913" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -97,6 +150,12 @@
               <item name="vue" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="github" type="b2602c69:ProjectViewProjectNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -110,7 +169,7 @@
     <property name="last_opened_file_path" value="D:/web" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -129,26 +188,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.第一个vue程序.html">
-    <configuration name="解构赋值.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/github/code/whw-es6/解构赋值.html" />
-    <configuration name="数组.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/github/code/whw-es6/数组.html" />
+  <component name="RunManager" selected="JavaScript Debug.sxiosTest.html">
     <configuration name="字符串.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/github/code/whw-es6/字符串.html" />
     <configuration name="面向对象.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/github/code/whw-es6/面向对象.html" />
+    <configuration name="ifelse.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/github/vue/html/ifelse.html" />
+    <configuration name="sxiosTest.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/github/vue/html/sxiosTest.html" />
     <configuration name="第一个vue程序.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/github/vue/html/第一个vue程序.html" />
     <list>
-      <item itemvalue="JavaScript Debug.解构赋值.html" />
-      <item itemvalue="JavaScript Debug.数组.html" />
       <item itemvalue="JavaScript Debug.字符串.html" />
       <item itemvalue="JavaScript Debug.面向对象.html" />
       <item itemvalue="JavaScript Debug.第一个vue程序.html" />
+      <item itemvalue="JavaScript Debug.ifelse.html" />
+      <item itemvalue="JavaScript Debug.sxiosTest.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.sxiosTest.html" />
         <item itemvalue="JavaScript Debug.第一个vue程序.html" />
+        <item itemvalue="JavaScript Debug.ifelse.html" />
         <item itemvalue="JavaScript Debug.面向对象.html" />
         <item itemvalue="JavaScript Debug.字符串.html" />
-        <item itemvalue="JavaScript Debug.数组.html" />
-        <item itemvalue="JavaScript Debug.解构赋值.html" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +221,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559903836025</updated>
-      <workItem from="1559903837526" duration="17179000" />
+      <workItem from="1559903837526" duration="21739000" />
     </task>
     <task id="LOCAL-00001" summary="配置文件">
       <created>1559904070944</created>
@@ -182,13 +241,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17179000" />
+    <option name="totallyTimeSpent" value="21739000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="278" y="74" width="1138" height="658" extended-state="0" />
+    <frame x="318" y="82" width="1138" height="730" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13974592" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1814882" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -197,7 +256,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" weight="0.32107496" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.47807637" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.54314005" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -344,13 +403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vue简绍.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue/html.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -368,10 +420,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vue/vue简绍.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/html/pp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/js/axios.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/html/ifelse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="830">
+          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vue/html/第一个vue程序.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        <state relative-caret-position="176">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/html/vueTest.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/html/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/html/sxiosTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="34" />
         </state>
       </provider>
     </entry>
